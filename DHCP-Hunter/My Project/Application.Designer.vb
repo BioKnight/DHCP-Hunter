@@ -32,7 +32,7 @@ Namespace My
 
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()> _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.DHCP_Hunter.Form1
+            Me.MainForm = Global.DHCP_Hunter.frm_Main
         End Sub
     End Class
 End Namespace
