@@ -30,38 +30,41 @@ Partial Class frm_Main
         'lst_Servers
         '
         Me.lst_Servers.FormattingEnabled = True
-        Me.lst_Servers.ItemHeight = 16
         Me.lst_Servers.Location = New System.Drawing.Point(0, 0)
+        Me.lst_Servers.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.lst_Servers.Name = "lst_Servers"
-        Me.lst_Servers.Size = New System.Drawing.Size(359, 340)
+        Me.lst_Servers.Size = New System.Drawing.Size(270, 277)
         Me.lst_Servers.TabIndex = 0
         '
         'btn_Broadcast
         '
-        Me.btn_Broadcast.Location = New System.Drawing.Point(12, 356)
+        Me.btn_Broadcast.Location = New System.Drawing.Point(9, 289)
+        Me.btn_Broadcast.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btn_Broadcast.Name = "btn_Broadcast"
-        Me.btn_Broadcast.Size = New System.Drawing.Size(85, 23)
+        Me.btn_Broadcast.Size = New System.Drawing.Size(64, 19)
         Me.btn_Broadcast.TabIndex = 1
         Me.btn_Broadcast.Text = "&Broadcast"
         Me.btn_Broadcast.UseVisualStyleBackColor = True
         '
         'btn_Exit
         '
-        Me.btn_Exit.Location = New System.Drawing.Point(273, 356)
+        Me.btn_Exit.Location = New System.Drawing.Point(205, 289)
+        Me.btn_Exit.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btn_Exit.Name = "btn_Exit"
-        Me.btn_Exit.Size = New System.Drawing.Size(75, 23)
+        Me.btn_Exit.Size = New System.Drawing.Size(56, 19)
         Me.btn_Exit.TabIndex = 2
         Me.btn_Exit.Text = "E&xit"
         Me.btn_Exit.UseVisualStyleBackColor = True
         '
         'frm_Main
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(360, 391)
+        Me.ClientSize = New System.Drawing.Size(270, 318)
         Me.Controls.Add(Me.btn_Exit)
         Me.Controls.Add(Me.btn_Broadcast)
         Me.Controls.Add(Me.lst_Servers)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "frm_Main"
         Me.Text = "DHCP-Hunter"
         Me.ResumeLayout(False)
