@@ -24,7 +24,7 @@ Public Class frm_Main
 
     Private Sub send_Broadcast()
         Try
-            UdpBroadcaster = New UdpClient(4333)
+            UdpBroadcaster = New UdpClient(DHCP_PORT)
             UdpBroadcaster.EnableBroadcast = True
         Catch
             MsgBox("Error creating UDP client! Port already in use?")
